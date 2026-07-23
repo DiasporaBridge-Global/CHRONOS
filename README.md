@@ -4,7 +4,9 @@
 
 ## Overview
 
-Project CHRONOS is a digital evidence ecosystem designed by the TamilOps Frontier AI Evaluation Lab. Its core mandate is to move AI evaluation from subjective claims to deterministic, verifiable evidence grids. We prioritize rigorous hallucination control and step-by-step auditing to establish credibility with frontier AI safety and alignment teams.
+Project CHRONOS is an independent research project developing a transparent methodology for evaluating frontier AI systems using preserved evidence, structured fact extraction, and evidence-backed reporting.
+
+This repository serves as the public evidence archive and methodology documentation for the project. Every evaluation preserves the original evidence before separating fact extraction and reporting into independent layers, allowing other researchers to inspect, challenge, reproduce, and build upon the published work.ty with frontier AI safety and alignment teams.
 
 ## The Three-Layer Evidence Model
 
