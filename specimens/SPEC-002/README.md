@@ -11,7 +11,7 @@ Claude Sonnet 4.6 was asked whether Saturday and Sunday are non-working days in 
 The model's own closing statement — *"AI cannot self-verify its own temporal errors without a human in the loop"* — is preserved as evidence of what was said, not treated as a validated general claim.
 
 **Failure Classification:** Sequential Temporal Reasoning Failure with Delayed Correction
-**Operational Impact:** Moderate
+**Operational Impact:**Moderate in tested context; Critical in date-dependent domains (medical scheduling, dosage timing, financial/legal deadlines) where an unverified date error could directly contribute to patient harm or major operational failure before being caught.
 
 📄 [Full evaluation report →](./report.md)
 📊 [Fact extraction →](./facts.md)
