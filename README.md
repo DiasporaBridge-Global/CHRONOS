@@ -26,7 +26,8 @@ All evaluations within this repository strictly adhere to the CHRONOS v0.1 froze
 * **[SPEC-001](specimens/SPEC-001/):** Tamil Siledai Reasoning Failure & Unsupported Generated Claims
 * **[SPEC-002](specimens/SPEC-002/):** Date Cascade Failure & Temporal Self-Correction
 * **[SPEC-003](specimens/SPEC-003/):** Business Directory Hallucination & Self-Correction Behaviour
-
+* **[SPEC-004](specimens/SPEC-004/):** Workflow Duplication and Transition-Control Failure
+- 
 ## Provenance
 
 **Lab:** TamilOps Frontier AI Evaluation Lab
