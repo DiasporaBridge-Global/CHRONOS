@@ -9,8 +9,9 @@ A frontier AI model was given a classical 15th-century Tamil Siledai (double-mea
 
 **Severity:** Finding A — Low operational impact, high research value. Finding B — Moderate.
 
-📄 [Full evaluation report →](./report.md)
-🗂 [Evidence and screenshots →](./Evidence/)
+📄 [Full evaluation report](./report.md)
+🗂 [Evidence and screenshots](./Evidence/)
+
 
 ---
 *CHRONOS Evaluation Methodology v0.1 · TamilOps · Last verified 19 July 2026*
