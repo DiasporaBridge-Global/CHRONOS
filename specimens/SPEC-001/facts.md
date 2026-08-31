@@ -47,4 +47,4 @@
 
 ---
 
-**Revision note:** An earlier version of this extraction incorrectly listed "mirror" as a live guess made by the AI during the actual riddle-solving sequence. This was corrected — "mirror" appears only inside Artifact 2, the fabricated draft claim, and was never a stated answer within the live conversation.
+**Revision note:** An earlier version of this extraction incorrectly listed "mirror" as a live guess made by the AI during the actual riddle-solving sequence. This was corrected — "mirror" as a standalone answer attributed to a separate AI model appears only inside Artifact 2. The word "கண்ணாடி" (mirror) did appear in the live conversation as part of the model's first self-rejected guess "பூச்சு கண்ணாடி?", but was never attributed to an external model.
