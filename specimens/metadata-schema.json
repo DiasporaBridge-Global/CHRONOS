@@ -1,0 +1,102 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "CHRONOS Specimen Metadata",
+  "description": "Schema for validating specimen metadata.json files",
+  "type": "object",
+  "required": [
+    "specimen_id",
+    "title",
+    "model",
+    "date_of_incident",
+    "date_added_to_archive",
+    "failure_classification",
+    "layers",
+    "case_nature",
+    "chronos_version",
+    "last_verified"
+  ],
+  "properties": {
+    "specimen_id": {
+      "type": "string",
+      "pattern": "^SPEC-[0-9]{3}$",
+      "description": "Zero-padded specimen identifier, e.g. SPEC-002"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Human-readable specimen title"
+    },
+    "model": {
+      "type": "object",
+      "required": ["name", "version", "provider"],
+      "properties": {
+        "name": { "type": "string" },
+        "version": { "type": "string" },
+        "provider": { "type": "string" }
+      }
+    },
+    "date_of_incident": {
+      "type": "string",
+      "format": "date",
+      "description": "Date the failure occurred, YYYY-MM-DD"
+    },
+    "date_added_to_archive": {
+      "type": "string",
+      "format": "date",
+      "description": "Date added to CHRONOS, YYYY-MM-DD"
+    },
+    "failure_classification": {
+      "type": "object",
+      "required": ["category", "taxonomy_code", "severity"],
+      "properties": {
+        "category": { "type": "string" },
+        "taxonomy_code": { "type": "string" },
+        "severity": {
+          "type": "string",
+          "enum": ["T0-Internal", "T1-Public", "T2-Restricted", "T3-Critical"]
+        }
+      }
+    },
+    "layers": {
+      "type": "object",
+      "required": ["layer_1_evidence", "layer_2_facts", "layer_3_report"],
+      "properties": {
+        "layer_1_evidence": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Paths to evidence files"
+        },
+        "layer_2_facts": {
+          "type": "string",
+          "description": "Path to facts.md"
+        },
+        "layer_3_report": {
+          "type": "string",
+          "description": "Path to report.md"
+        }
+      }
+    },
+    "case_nature": {
+      "type": "object",
+      "required": ["recurring", "cross_model_tested"],
+      "properties": {
+        "recurring": { "type": "boolean" },
+        "corroborating_specimens": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "cross_model_tested": { "type": "boolean" }
+      }
+    },
+    "chronos_version": {
+      "type": "string",
+      "pattern": "^[0-9]+\\.[0-9]+$",
+      "description": "CHRONOS methodology version, e.g. 0.2"
+    },
+    "last_verified": {
+      "type": "string",
+      "format": "date",
+      "description": "Last verification date, YYYY-MM-DD"
+    }
+  }
+}
