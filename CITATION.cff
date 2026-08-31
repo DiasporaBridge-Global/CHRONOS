@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite it as below."
+type: dataset
+title: "CHRONOS: Frontier AI Evaluation Repository, Evidence Archive & Methodology"
+abstract: "Project CHRONOS is an independent research project developing a transparent methodology for evaluating frontier AI systems using preserved evidence, structured fact extraction, and evidence-backed reporting."
+authors:
+  - family-names: "Seethapathy"
+    given-names: "Sirajudeen"
+    affiliation: "TamilOps Frontier AI Evaluation Lab"
+repository-code: "https://github.com/DiasporaBridge-Global/CHRONOS"
+license: "CC-BY-SA-4.0"
+version: 0.2
+date-released: 2026-08-31
+keywords:
+  - artificial intelligence
+  - AI evaluation
+  - frontier AI
+  - evidence-based research
+  - hallucination detection
+  - AI safety
+  - TamilOps
