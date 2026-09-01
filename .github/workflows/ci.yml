@@ -1,0 +1,118 @@
+name: CHRONOS Specimen Validation
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'specimens/**'
+      - 'methodology/**'
+      - '.github/workflows/ci.yml'
+  pull_request:
+    branches: [main]
+    paths:
+      - 'specimens/**'
+      - 'methodology/**'
+
+jobs:
+  validate-specimens:
+    runs-on: ubuntu-latest
+    name: Validate Specimen Structure
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install jsonschema
+
+      - name: Validate metadata.json files against schema
+        run: |
+          import json
+          import jsonschema
+          import os
+          import sys
+          from pathlib import Path
+
+          schema_path = Path('specimens/metadata-schema.json')
+          specimens_dir = Path('specimens')
+          errors = []
+
+          with open(schema_path) as f:
+              schema = json.load(f)
+
+          for spec_dir in sorted(specimens_dir.glob('SPEC-*')):
+              if not spec_dir.is_dir():
+                  continue
+
+              metadata_path = spec_dir / 'metadata.json'
+              spec_id = spec_dir.name
+
+              # Check metadata.json exists
+              if not metadata_path.exists():
+                  errors.append(f"{spec_id}: metadata.json missing")
+                  continue
+
+              # Validate against schema
+              with open(metadata_path) as f:
+                  try:
+                      metadata = json.load(f)
+                  except json.JSONDecodeError as e:
+                      errors.append(f"{spec_id}: metadata.json invalid JSON — {e}")
+                      continue
+
+              try:
+                  jsonschema.validate(instance=metadata, schema=schema)
+              except jsonschema.ValidationError as e:
+                  errors.append(f"{spec_id}: schema validation failed — {e.message}")
+                  continue
+
+              # Check required files exist per standard
+              required_files = [
+                  'README.md',
+                  'facts.md',
+                  'report.md',
+                  'mitigation.md',
+                  'reproduction-test.md',
+                  'Evidence/evidence-log.md',
+                  'Evidence/integrity.sha256'
+              ]
+
+              for req_file in required_files:
+                  file_path = spec_dir / req_file
+                  if not file_path.exists():
+                      errors.append(f"{spec_id}: required file missing — {req_file}")
+
+              # Verify evidence files listed in metadata exist
+              evidence_files = metadata.get('layers', {}).get('layer_1_evidence', [])
+              for ev_file in evidence_files:
+                  ev_path = spec_dir / ev_file
+                  if not ev_path.exists():
+                      errors.append(f"{spec_id}: evidence file missing — {ev_file}")
+
+              print(f"✓ {spec_id} validated")
+
+          if errors:
+              print("\n--- VALIDATION FAILED ---")
+              for err in errors:
+                  print(f"✗ {err}")
+              sys.exit(1)
+          else:
+              print("\n--- ALL SPECIMENS VALID ---")
+
+        shell: python
+
+      - name: Check methodology files exist
+        run: |
+          test -f methodology/specimen-structure-standard.md || (echo "✗ specimen-structure-standard.md missing" && exit 1)
+          echo "✓ Core methodology files present"
+
+      - name: Report status
+        if: always()
+        run: |
+          echo "CHRONOS validation complete"
+          
