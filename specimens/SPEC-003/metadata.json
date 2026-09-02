@@ -1,0 +1,32 @@
+{
+  "specimen_id": "SPEC-003",
+  "title": "Business Directory Hallucination & Self-Correction Behaviour",
+  "model": {
+    "name": "Gemini Pro",
+    "version": "—",
+    "provider": "Google"
+  },
+  "date_of_incident": "2026-06-04",
+  "date_added_to_archive": "2026-07-21",
+  "failure_classification": {
+    "category": "Directory-Sourced Hallucination (Source Data Contamination)",
+    "taxonomy_code": "HALL-DIR-001",
+    "severity": "T1-Public"
+  },
+  "layers": {
+    "layer_1_evidence": [
+      "Evidence/evidence-log.md",
+      "Evidence/Laptop dealers.pdf"
+    ],
+    "layer_2_facts": "facts.md",
+    "layer_3_report": "report.md"
+  },
+  "case_nature": {
+    "recurring": true,
+    "corroborating_specimens": [],
+    "cross_model_tested": false,
+    "notes": "Evidence log references gemini-pro-response-2026-06-04.png which is not present in archive"
+  },
+  "chronos_version": "0.2",
+  "last_verified": "2026-08-31"
+}
