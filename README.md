@@ -34,9 +34,8 @@ This work is licensed under the [Creative Commons Attribution-ShareAlike 4.0 Int
 
 ## Provenance
 
-**Lab:** TamilOps Frontier AI Evaluation Lab  
-**Lead Architect:** Sirajudeen Seethapathy
-
+**Project:** CHRONOS · TamilOps
+**Independent AI Evaluation Researcher:** Sirajudeen Seethapathy
 ---
 
 *CHRONOS Evaluation Methodology v0.2 · TamilOps · Last updated 2026-08-31*
