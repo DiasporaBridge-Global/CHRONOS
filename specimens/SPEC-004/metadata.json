@@ -1,0 +1,36 @@
+{
+  "specimen_id": "SPEC-004",
+  "title": "Workflow Duplication and Transition-Control Failure",
+  "model": {
+    "name": "Claude",
+    "version": "Sonnet 5",
+    "provider": "Anthropic"
+  },
+  "date_of_incident": "2026-07-20",
+  "date_added_to_archive": "2026-08-10",
+  "failure_classification": {
+    "category": "Workflow Transition Failure & Unnecessary Duplication",
+    "taxonomy_code": "WORK-DUP-001",
+    "severity": "T1-Public"
+  },
+  "layers": {
+    "layer_1_evidence": [
+      "Evidence/integrity.sha256",
+      "01_Raw_Screenshots/Screenshot_2026-07-20-11-43-36-994_com.anthropic.claude.jpg",
+      "01_Raw_Screenshots/Screenshot_2026-07-20-11-43-50-489_com.anthropic.claude.jpg",
+      "01_Raw_Screenshots/Screenshot_2026-07-20-11-44-05-485_com.anthropic.claude.jpg",
+      "01_Raw_Screenshots/Screenshot_2026-07-20-11-44-12-027_com.anthropic.claude.jpg",
+      "01_Raw_Screenshots/Screenshot_2026-07-20-11-44-41-118_com.anthropic.claude.jpg"
+    ],
+    "layer_2_facts": "02_Fact_Extraction/facts.md",
+    "layer_3_report": "04_Report/report.md"
+  },
+  "case_nature": {
+    "recurring": false,
+    "corroborating_specimens": [],
+    "cross_model_tested": false,
+    "notes": "Folder structure uses v0.1 layout (01_Raw_Screenshots, 02_Fact_Extraction, 03_Analysis, 04_Report). Evidence/ folder created for v0.2 compliance. Full restructure pending."
+  },
+  "chronos_version": "0.2",
+  "last_verified": "2026-08-31"
+}
