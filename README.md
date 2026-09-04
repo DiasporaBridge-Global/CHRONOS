@@ -8,7 +8,7 @@
 | [SPEC-001](specimens/SPEC-001/) | Tamil Siledai Reasoning Failure & Unsupported Generated Claims | Claude | Reasoning Failure |
 | [SPEC-002](specimens/SPEC-002/) | Date Cascade Failure & Temporal Self-Correction | Claude Sonnet 4.6 | Temporal Cascade Failure |
 | [SPEC-003](specimens/SPEC-003/) | Business Directory Hallucination & Self-Correction Behaviour | Gemini Pro | Hallucination |
-| [SPEC-004](specimens/SPEC-004/) | Workflow Duplication and Transition-Control Failure | — | Workflow Failure |
+| [SPEC-004](specimens/SPEC-004/) | Workflow Duplication and Transition-Control Failure | Claude Sonnet 5 Thinking| Workflow Failure |
 
 ---
 
