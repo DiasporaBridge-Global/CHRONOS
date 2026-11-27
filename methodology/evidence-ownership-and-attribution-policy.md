@@ -1,54 +1,83 @@
 # CHRONOS Evidence Ownership, Attribution and Access Policy
 
-**Status:** Proposed for director review  
+**Status:** Director-approved protection direction; implementation proposal pending legal review and hosting migration  
 **Policy owner:** Original Evidence Owner: Sirajudeen Seethapathy | Project CHRONOS — TamilOps  
-**Applies to:** CHRONOS-authored research documentation, evidence inventories, curated collections, and derivatives, subject to the rights of third parties and source platforms.
+**Applies to:** CHRONOS-controlled intellectual property across the project, including original evidence captures created by the project, research writing, analysis, taxonomies, templates, datasets, inventories, metadata, documentation, visual derivatives, branding and other original project materials. Third-party rights remain separate.
 
 ## 1. Required attribution imprint
 
-Where CHRONOS reproduces or presents an authorised derivative, excerpt, exhibit, or other reusable CHRONOS-controlled material, the following exact imprint must be retained visibly and legibly:
+Where CHRONOS presents authorised CHRONOS-controlled material, the following exact imprint must be retained visibly and legibly:
 
 > Original Evidence Owner: Sirajudeen Seethapathy | Project CHRONOS — TamilOps
 
-The imprint identifies the CHRONOS evidence collection's declared provenance and curatorial ownership. It does **not** assert ownership of third-party platform interfaces, user/model statements, generated outputs, trademarks, or other material whose rights belong to someone else. Each specimen must identify known third-party material and applicable rights or permissions.
+The imprint records the declared provenance and curatorial ownership of CHRONOS-controlled material. It does not transfer to CHRONOS ownership of third-party platform interfaces, user/model statements, generated outputs, trademarks, or other material whose rights belong to someone else. Every specimen must identify known third-party material and applicable rights or permissions.
 
-## 2. Preserve original evidence
+## 2. Protect originals and preserve research integrity
 
 - Preserve original screenshots, recordings, exports, documents, and other source artifacts byte-for-byte.
-- Do not add a watermark, crop, redact, recompress, annotate, or otherwise alter a primary evidence original.
-- Place the imprint in the specimen README, evidence catalogue, and metadata/provenance record.
-- If a visual imprint is required, create a clearly labelled derivative copy, retain the unaltered original, and document the derivative's relationship to it.
-- Record SHA-256 hashes for originals and derivatives separately.
+- Never watermark, crop, redact, recompress, annotate, or otherwise alter a primary evidence original.
+- Keep originals in access-controlled private storage, with access granted only by the project director or an expressly authorised custodian.
+- Maintain SHA-256 hashes, capture/provenance metadata, and an access/change log for each original.
+- Publish only clearly labelled derivatives or excerpts where publication rights and privacy/security review permit.
+- Apply the visible ownership imprint to publication derivatives, not to primary originals; record the derivative's relationship to its source and hash each separately.
+- Do not upload additional unwatermarked original evidence assets to the public GitHub repository while the hosting transition is pending.
 
-## 3. Permission-based reuse intention
+## 3. Project-wide rights-reserved direction
 
-The project director's intended policy is that public readers may view and study CHRONOS material, but republication, redistribution, adaptation, and commercial reuse of CHRONOS-controlled material require prior written permission, except where a legal exception applies. Any permission granted must specify the material, permitted use, duration/scope where relevant, and the required visible imprint.
+The project director's approved protection direction is to reserve all rights in CHRONOS-controlled material, except for the limited public permission expressly stated for viewing and studying material made available for that purpose.
 
-This is a policy intention, not a claim that the current repository licence already enforces it.
+Unless a separate written permission or applicable legal exception allows it, the intended restrictions are:
+- no republication or redistribution;
+- no copying or extraction for republishing;
+- no adaptation, modification, or creation of derivative publications;
+- no commercial exploitation; and
+- no removal or concealment of required attribution from authorised uses.
 
-## 4. Important current-platform and licence limitations
+Any permission granted must identify the material, permitted acts, scope, duration where relevant, and the required visible imprint.
 
-The repository is currently public on GitHub. GitHub's Terms of Service allow users to view and fork public repositories, including reproducing repository content through GitHub's functionality. A public GitHub repository therefore cannot guarantee a strictly view-only/no-copy experience. See:
+These are proposed rights-reserved terms for CHRONOS-controlled material. They do not bind third-party rights holders' material, override statutory exceptions, or retroactively cancel permissions already granted under an earlier licence. They must not be represented as an effective replacement licence until qualified legal review is complete and the approved terms are formally adopted.
+
+## 4. Existing CC BY-SA 4.0 licence and transition limits
+
+The current root LICENSE applies CC BY-SA 4.0. That licence permits copying, redistribution, adaptation, and commercial reuse subject to its conditions. Creative Commons describes compliant grants as irrevocable. Changing the repository's licence cannot retroactively withdraw permissions already granted to recipients for material previously offered under CC BY-SA 4.0.
+
+Accordingly:
+- retain the current LICENSE unchanged during the review and transition;
+- inventory which materials were made available under CC BY-SA 4.0 and identify their rights holders;
+- do not claim that new terms erase earlier grants;
+- determine, with qualified legal advice, which newly created or previously unlicensed CHRONOS-controlled materials can be placed under new terms; and
+- clearly label the effective date and scope of any future licence change.
+
+References:
+- https://creativecommons.org/licenses/by-sa/4.0/
+- https://creativecommons.org/faq/
 - https://docs.github.com/en/site-policy/github-terms/github-terms-of-service
 - https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository
 
-The current root LICENSE file applies CC BY-SA 4.0. That licence expressly permits copying, redistribution, adaptation, and commercial reuse subject to its conditions. Creative Commons states that grants already received are irrevocable for compliant users, even if the licensor later stops distributing under that licence. See:
-- https://creativecommons.org/licenses/by-sa/4.0/
-- https://creativecommons.org/faq/
+## 5. GitHub and public-access limitations
 
-Accordingly:
-- This policy document does not cancel or retroactively revoke CC BY-SA 4.0 permissions already granted for material previously offered under that licence.
-- A future licence change may govern newly offered material only to the extent the relevant rights are controlled by the licensor; it cannot erase earlier grants.
-- No claim is made that CHRONOS owns third-party material merely because it appears in an evidence specimen.
-- A public, strictly view-only archive may require a different hosting arrangement, with GitHub used as an index or methodology repository rather than as the host for protected source assets.
+A public GitHub repository is not a reliable view-only or download-prevention platform. Public repository contents can be cloned, forked, downloaded, cached, or captured. A watermark and a rights notice can establish attribution and communicate restrictions, but cannot technically prevent copying.
 
-## 5. Implementation and approval gates
+The intended target architecture is:
+1. private, access-controlled storage for primary evidence originals;
+2. a public CHRONOS research layer containing methodology, specimen summaries, provenance references, hashes where safe, and authorised watermarked derivatives; and
+3. an access-controlled process for any exceptional review of originals.
 
-Before this policy is represented as legally effective:
-1. Inventory which repository materials are CHRONOS-authored, user-created evidence captures, third-party content, platform-generated content, or mixed works.
-2. Obtain qualified legal review of the proposed rights notice and the effect of GitHub's Terms of Service.
-3. Decide whether to retain public GitHub hosting for evidence, move source assets to a view-only publication platform, or separate public methodology from controlled evidence.
-4. Replace or supplement the current licence only after that review and an explicit director decision.
-5. Keep originals unchanged; add visual imprints only to derivatives and display pages.
+Before moving or removing any existing public evidence assets, inventory them and preserve repository history and provenance. Do not delete or rewrite historical evidence in this policy change.
 
-**No retroactive ownership claim is made over material whose rights belong to another person or platform.**
+## 6. Third-party and mixed-rights material
+
+CHRONOS must not assert exclusive ownership over content merely because it is included in a specimen. Rights in platform UI, third-party text, user/model statements, generated outputs, logos, trademarks, and other embedded material may belong to other parties or be subject to separate legal rules. Each item must be classified before a licence is applied. Where ownership or permission is uncertain, mark it as such and seek review rather than making a blanket ownership claim.
+
+## 7. Implementation gates
+
+Before the proposed rights-reserved terms become the effective repository licence:
+1. complete a file-level rights inventory;
+2. identify all content previously distributed under CC BY-SA 4.0;
+3. obtain qualified legal review of the new terms and the effect of GitHub's Terms of Service;
+4. select and test private storage and a public publication layer;
+5. migrate originals without alteration, verify hashes, and document access controls;
+6. publish only authorised, clearly labelled derivatives; and
+7. obtain the project director's final approval of the exact licence text and effective date.
+
+**No original evidence is modified, removed, or migrated by this policy document. No licence change is effective merely because this proposal is committed.**
