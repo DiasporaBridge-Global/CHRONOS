@@ -19,12 +19,13 @@
 
 ---
 
-## Notes
+## Preservation and Integrity Notes
 
-- All screenshots captured from Claude mobile interface on Android device.
-- Timestamps extracted from screenshot filenames (device local time, IST).
-- Screenshots preserved in original format without modification.
-- Folder structure reflects v0.1 archive layout; files referenced at current locations pending restructure.
+- All five screenshots are preserved in their original repository paths and formats.
+- Timestamps are taken from the screenshot filenames (device local time, IST).
+- `Evidence/integrity.sha256` records SHA-256 checksums for all five screenshots. Its paths are relative to the SPEC-004 directory, not to the `Evidence/` directory.
+- All five screenshot hashes were recomputed from the repository files during the 27 November 2026 audit and matched the recorded values.
+- The root-level `evidence-log.md` is retained as a compatibility pointer to this canonical evidence log; it is not a second evidence record.
 
 ---
 
