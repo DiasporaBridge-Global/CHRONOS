@@ -34,6 +34,7 @@ jobs:
         run: pip install jsonschema
 
       # The validator supports legacy evidence layouts without altering source artifacts.
+      # Legacy manifest paths are audited during retrospective migration.
       - name: Validate all specimens
         run: python scripts/validate_chronos.py
 
