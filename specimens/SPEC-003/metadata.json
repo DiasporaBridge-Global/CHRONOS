@@ -15,7 +15,6 @@
   },
   "layers": {
     "layer_1_evidence": [
-      "Evidence/evidence-log.md",
       "Evidence/Laptop dealers.pdf"
     ],
     "layer_2_facts": "facts.md",
@@ -25,7 +24,7 @@
     "recurring": true,
     "corroborating_specimens": [],
     "cross_model_tested": false,
-    "notes": "Evidence log references gemini-pro-response-2026-06-04.png which is not present in archive"
+    "notes": "The current repository preserves Laptop dealers.pdf. The prior evidence log records a Gemini Pro response screenshot embedded/extracted from page 2 of that PDF, but the separately named gemini-pro-response-2026-06-04.png is absent from the repository. Do not treat it as a separate preserved file."
   },
   "chronos_version": "0.2",
   "last_verified": "2026-08-31"
