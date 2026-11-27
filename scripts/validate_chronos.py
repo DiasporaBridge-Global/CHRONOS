@@ -125,11 +125,12 @@ def main() -> int:
                 errors.append(f"{label}: required file missing: {required}")
 
         layers = metadata.get("layers", {})
-        strict = metadata.get("governance_status") == "standard-v1"
-        # Legacy metadata uses inconsistent evidence path conventions. Do not
-        # fail historical specimens on path normalization; record them for
-        # retrospective review. New standard-v1 specimens are checked strictly.
-        if strict:
+        governance_status = metadata.get("governance_status")
+        governed = governance_status in {"draft", "standard-v1"}
+        approved = governance_status == "standard-v1"
+        # Historical specimens without a governance_status retain legacy
+        # compatibility. New draft and standard-v1 specimens use strict paths.
+        if governed:
             for relative in layers.get("layer_1_evidence", []):
                 safe_evidence_file(spec_dir, relative, errors, label)
         else:
@@ -139,7 +140,7 @@ def main() -> int:
             if relative:
                 safe_file(spec_dir, relative, errors, label)
 
-        if strict:
+        if governed:
             provenance = metadata.get("evidence_provenance", {})
             required_provenance = (
                 "captured_by", "capture_method", "capture_timezone",
@@ -155,12 +156,13 @@ def main() -> int:
             ):
                 if not review.get(key):
                     errors.append(f"{label}: standard-v1 missing review.{key}")
-            if review.get("publication_decision") not in {"approved", "approved-with-limitations"}:
-                errors.append(f"{label}: standard-v1 is not publication-approved")
-            if review.get("evidence_review") != "passed" or review.get("fact_review") != "passed" or review.get("analysis_review") != "passed":
-                errors.append(f"{label}: standard-v1 review gates are incomplete")
-        validate_manifest(spec_dir, errors, strict)
-        print(f"{'STRICT' if strict else 'LEGACY'} checked: {label}")
+            if approved:
+                if review.get("publication_decision") not in {"approved", "approved-with-limitations"}:
+                    errors.append(f"{label}: standard-v1 is not publication-approved")
+                if review.get("evidence_review") != "passed" or review.get("fact_review") != "passed" or review.get("analysis_review") != "passed":
+                    errors.append(f"{label}: standard-v1 review gates are incomplete")
+        validate_manifest(spec_dir, errors, governed)
+        print(f"{'GOVERNED' if governed else 'LEGACY'} checked: {label}")
 
     if errors:
         print("\nCHRONOS VALIDATION FAILED")
