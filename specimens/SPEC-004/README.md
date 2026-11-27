@@ -4,16 +4,19 @@
 
 SPEC-004 documents a CHRONOS workflow failure involving unnecessary parallel staging of project materials between Google Drive and GitHub.
 
-The specimen is based on five original screenshots preserved in `01_Raw_Screenshots/`.
+The specimen is based on five original screenshots preserved in `01_Raw_Screenshots/`. Their SHA-256 values are recorded in `Evidence/integrity.sha256` using paths relative to the SPEC-004 directory.
 
-## Evidence Chain
+## Canonical Artifact Map
 
-The specimen follows the CHRONOS standardized workflow:
+| Research function | Canonical path |
+|---|---|
+| Raw evidence | `01_Raw_Screenshots/` |
+| Evidence provenance and integrity manifest | `Evidence/evidence-log.md`, `Evidence/integrity.sha256` |
+| Structured fact extraction | `02_Fact_Extraction/facts.md` |
+| CHRONOS postmortem analysis | `03_Analysis/analysis.md` |
+| Evidence-backed report | `04_Report/report.md` |
 
-1. `01_Raw_Screenshots/` — Primary documentary evidence
-2. `02_Fact_Extraction/` — Structured extraction of evidence
-3. `03_Analysis/` — Independent CHRONOS postmortem analysis
-4. `04_Report/` — Final evidence-backed report
+The three core research layers remain raw evidence → structured fact extraction → evidence-backed reporting. The analysis document is an intermediate CHRONOS interpretation artifact between extraction and reporting; it is not a separate source of evidence.
 
 ## Principal Finding
 
@@ -28,6 +31,12 @@ This resulted in avoidable duplication of project work between Drive and GitHub.
 Claude's own acceptance of the workflow failure is preserved as source-derived evidence.
 
 The deeper finding concerning workflow transition-point failure is a CHRONOS postmortem analysis and is not presented as a direct Claude admission.
+
+The approximately four-day loss is preserved as Claude's statement; the screenshots do not independently quantify the duration. Reproduction tests remain pending, and no reproducibility claim is made from those pending tests.
+
+## Compatibility Files
+
+Root-level `facts.md`, `report.md`, and `evidence-log.md` are retained as short compatibility pointers to the canonical files. They are not independent alternate versions and must not be edited separately.
 
 ## Methodology Status
 
