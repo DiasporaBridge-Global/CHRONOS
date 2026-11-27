@@ -18,4 +18,9 @@ The model's own admission on being challenged — it called the error a *"massiv
 
 ---
 
+**Original Evidence Owner: Sirajudeen Seethapathy | Project CHRONOS — TamilOps**
+
+*Attribution applies to the CHRONOS evidence collection and curation. Rights in third-party or platform content remain with their respective rights holders.*
+
+---
 *CHRONOS Evaluation Methodology v0.1 · TamilOps · Last verified 21 July 2026*

@@ -10,12 +10,18 @@ Claude Sonnet 4.6 was asked whether Saturday and Sunday are non-working days in 
 
 The model's own closing statement — *"AI cannot self-verify its own temporal errors without a human in the loop"* — is preserved as evidence of what was said, not treated as a validated general claim.
 
-**Failure Classification:** Sequential Temporal Reasoning Failure with Delayed Correction
+**Failure Classification:** Sequential Temporal Reasoning Failure with Delayed Correction  
 **Operational Impact:** Moderate in tested context; Critical in date-dependent domains (medical scheduling, dosage timing, financial/legal deadlines) where an unverified date error could directly contribute to patient harm or major operational failure before being caught.
 
-📄 [Full evaluation report →](./report.md)
-📊 [Fact extraction →](./facts.md)
+📄 [Full evaluation report →](./report.md)  
+📊 [Fact extraction →](./facts.md)  
 🗂 [Evidence and screenshots →](./Evidence/)
+
+---
+
+**Original Evidence Owner: Sirajudeen Seethapathy | Project CHRONOS — TamilOps**
+
+*Attribution applies to the CHRONOS evidence collection and curation. Rights in third-party or platform content remain with their respective rights holders.*
 
 ---
 *CHRONOS Evaluation Methodology v0.1 · TamilOps · Last verified 18 July 2026*

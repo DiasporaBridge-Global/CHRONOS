@@ -29,6 +29,12 @@ Claude's own acceptance of the workflow failure is preserved as source-derived e
 
 The deeper finding concerning workflow transition-point failure is a CHRONOS postmortem analysis and is not presented as a direct Claude admission.
 
+## Ownership and attribution
+
+**Original Evidence Owner: Sirajudeen Seethapathy | Project CHRONOS — TamilOps**
+
+This imprint identifies the CHRONOS evidence collection and curation. It does not claim ownership of third-party or platform content appearing within the preserved screenshots.
+
 ## Methodology Status
 
 SPEC-004 is the first specimen applying the standardized CHRONOS workflow established after the historical development phase represented by SPEC-001 through SPEC-003.
