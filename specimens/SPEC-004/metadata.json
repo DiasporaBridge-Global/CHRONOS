@@ -15,7 +15,6 @@
   },
   "layers": {
     "layer_1_evidence": [
-      "Evidence/integrity.sha256",
       "01_Raw_Screenshots/Screenshot_2026-07-20-11-43-36-994_com.anthropic.claude.jpg",
       "01_Raw_Screenshots/Screenshot_2026-07-20-11-43-50-489_com.anthropic.claude.jpg",
       "01_Raw_Screenshots/Screenshot_2026-07-20-11-44-05-485_com.anthropic.claude.jpg",
@@ -29,8 +28,8 @@
     "recurring": false,
     "corroborating_specimens": [],
     "cross_model_tested": false,
-    "notes": "Folder structure uses v0.1 layout (01_Raw_Screenshots, 02_Fact_Extraction, 03_Analysis, 04_Report). Evidence/ folder created for v0.2 compliance. Full restructure pending."
+    "notes": "Canonical paths are 01_Raw_Screenshots/ for original evidence, 02_Fact_Extraction/facts.md for extracted facts, 03_Analysis/analysis.md for CHRONOS interpretation, and 04_Report/report.md for the evidence-backed report. The analysis file is an intermediate interpretive artifact; it is not raw evidence or an additional independent evidence layer. Root-level facts.md, report.md and evidence-log.md are compatibility pointers only."
   },
   "chronos_version": "0.2",
-  "last_verified": "2026-08-31"
+  "last_verified": "2026-11-27"
 }
