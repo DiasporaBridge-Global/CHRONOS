@@ -78,7 +78,7 @@ Reports must include the evaluation question, context/environment, observed sequ
 
 Each specimen moves through: **Draft → Evidence checked → Fact extraction checked → Analysis reviewed → Reproduction status recorded → CI passed → Human publication approval → Published**.
 
-A CI pass is necessary but not sufficient. A reviewer must verify evidence integrity, attribution, traceability, limitations, privacy/safety, metadata, taxonomy and publication wording. A specimen with unresolved gaps may be published only if those gaps are explicit and the publication decision accepts them; otherwise it remains draft.
+A CI pass is necessary but not sufficient. A reviewer must verify evidence integrity, attribution, traceability, limitations, ethics, privacy/safety, metadata, taxonomy and publication approval. A specimen with unresolved gaps may be published only if those gaps are explicit and the publication decision accepts them; otherwise it remains draft.
 
 ## 9. Retrospective specimens
 
@@ -88,6 +88,18 @@ SPEC-001 through SPEC-004 predate this standard and may contain legacy structure
 
 All new specimens must use the current template and set `governance_status` to `standard-v1` only after required provenance, traceability and review fields are complete. A specimen must not claim compliance solely because its files exist or its metadata parses.
 
-## 11. Change control
+## 11. Ownership, attribution and permitted derivatives
+
+Every specimen README and future-specimen template must display the exact project attribution imprint:
+
+> Original Evidence Owner: Sirajudeen Seethapathy | Project CHRONOS — TamilOps
+
+This imprint records the project's declared evidence-collection provenance and curatorial attribution. It must not be interpreted as transferring ownership of third-party, platform, user, or model-generated content to CHRONOS. Known third-party rights must be identified separately.
+
+Raw evidence remains immutable: do not watermark or alter primary screenshots, recordings, exports, or documents. Put the imprint in the specimen's documentation and provenance record. Any visual watermark belongs only on a clearly identified derivative, with the original preserved and separately hashed.
+
+The detailed policy and current licence/platform limitations are documented in [Evidence Ownership and Attribution Policy](evidence-ownership-and-attribution-policy.md). This governance requirement does not itself override the current repository licence or GitHub's public-repository terms.
+
+## 12. Change control
 
 Changes to this standard, schema, templates, taxonomy or validator require a reviewed pull request. Existing published specimens are not silently rewritten by a policy update. Record version, effective date and migration impact. Protect `main`; use branches and pull requests for review.
