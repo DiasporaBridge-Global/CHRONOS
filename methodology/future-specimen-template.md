@@ -17,6 +17,14 @@ specimens/SPEC-XXX/
 └── domain-impact-matrix.md   [when applicable]
 ```
 
+## Required attribution imprint
+
+Every specimen README and provenance record must include this exact line:
+
+> Original Evidence Owner: Sirajudeen Seethapathy | Project CHRONOS — TamilOps
+
+This is project-level evidence-collection/curation attribution. It does not claim ownership of third-party or platform material contained in the specimen. Preserve raw evidence unchanged; apply any visual watermark only to a documented derivative.
+
 ## metadata.json governance additions
 
 Keep all existing schema-required fields and add:
@@ -29,6 +37,7 @@ Keep all existing schema-required fields and add:
     "capture_method": "method or unknown",
     "capture_timezone": "timezone or unknown",
     "source_platform": "platform or unknown",
+    "attribution_imprint": "Original Evidence Owner: Sirajudeen Seethapathy | Project CHRONOS — TamilOps",
     "limitations": ["known evidence limitations"]
   },
   "review": {
@@ -51,6 +60,7 @@ Allowed governance status values: `draft`, `legacy-review`, `standard-v1`. Use `
 - Failure classification and taxonomy code
 - Links to evidence log, facts, report, mitigation and reproduction record
 - Current review/publication status
+- Exact attribution imprint shown above
 
 ## Evidence/evidence-log.md
 List each original artifact, its original filename, type, source/collector, capture time and timezone (or unknown), relevant page/frame/time range, description and limitations. Distinguish original evidence from derived/transcribed material.
