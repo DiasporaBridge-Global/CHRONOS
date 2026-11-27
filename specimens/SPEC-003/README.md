@@ -1,21 +1,24 @@
 # SPEC-003 — Business Directory Hallucination
 
-Justdial Self-Tagging Verification Failure
+## Justdial Self-Tagging Verification Failure
 
-Gemini Pro was asked to find second-hand laptop dealers in Karaikudi, Tamil Nadu. It sourced its answer from the Justdial business directory and presented three shops as verified second-hand laptop dealers, without checking whether the directory category matched the shop's actual inventory.
+Gemini Pro was asked to find second-hand laptop dealers in Karaikudi, Tamil Nadu. It sourced its answer from the Justdial business directory and presented three shops as verified second-hand laptop dealers, without independently checking whether the directory category matched each shop's actual inventory.
 
-- **Kims Computers** — Listed as *Second Hand Laptop Dealer* → Actually sells only spare parts (chargers, screens) plus repair services
-- **Uniqon** — Listed as *Second Hand Laptop Dealer* → Actually sells exclusively brand-new HP laptops and high-end assembled PCs
-- **Playback Computers** — Listed as *Second Hand Laptop Dealer* → Actually a repair/service shop, not a laptop reseller
+- **Kims Computers** — Listed as *Second Hand Laptop Dealer* → Reported as selling spare parts (chargers, screens) and providing repair services
+- **Uniqon** — Listed as *Second Hand Laptop Dealer* → Reported as selling brand-new HP laptops and high-end assembled PCs
+- **Playback Computers** — Listed as *Second Hand Laptop Dealer* → Reported as a repair/service shop, not a laptop reseller
 
-**Root cause:** Justdial allows businesses to self-tag their own listings with any category keyword, regardless of actual inventory. Shops use the "second-hand laptop" tag to draw footfall, then upsell visitors to new stock. An AI model querying or trained on this directory data inherits the mistagging as fact, with no independent check against what the business actually sells.
+**Root-cause hypothesis:** The directory category may have been inaccurate or insufficiently verified. The available specimen documents the mismatch between the category returned by the model and the reported business operations; it does not independently establish why each listing was tagged that way.
 
-The model's own admission on being challenged — it called the error a *"massive flaw"* it had to *"own up to"* — is preserved as evidence of what was said, not treated as a validated general claim.
+The model's response on being challenged is described in the evidence log as part of the source PDF. The separately named PNG is not present in the current repository and is not represented as a separate preserved artifact.
 
-**Failure Classification:** Directory-Sourced Hallucination (Source Data Contamination) **Operational Impact:** Moderate–High
+**Failure Classification:** Directory-Sourced Hallucination (Source Data Contamination)  
+**Operational Impact:** Moderate–High (assessment; see report and evidence boundary)
 
-📄 [Full evaluation report →](report.md) 📊 [Fact extraction →](facts.md) 🖼️ [Evidence and screenshots →](Evidence/evidence-log.md)
+📄 [Full evaluation report →](report.md)  
+📊 [Fact extraction →](facts.md)  
+🖼️ [Evidence log and preserved source PDF →](Evidence/evidence-log.md)
 
 ---
 
-*CHRONOS Evaluation Methodology v0.1 · TamilOps · Last verified 21 July 2026*
+*CHRONOS Evaluation Methodology v0.1 · TamilOps · Evidence-path audit: 27 November 2026*
