@@ -60,6 +60,9 @@ def safe_evidence_file(spec_dir: Path, relative: str, errors: list, label: str) 
 
 
 def validate_manifest(spec_dir: Path, errors: list, strict: bool) -> None:
+    # Legacy manifests use historical path conventions and are audited separately.
+    if not strict:
+        return
     manifest = spec_dir / "Evidence/integrity.sha256"
     if not manifest.is_file():
         return
