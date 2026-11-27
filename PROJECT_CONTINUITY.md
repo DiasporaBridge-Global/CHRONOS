@@ -63,7 +63,7 @@ Do not restart a SPEC-001 retrospective audit ahead of the new-specimen publicat
 - Repository: [DiasporaBridge-Global/CHRONOS](https://github.com/DiasporaBridge-Global/CHRONOS)
 - Default branch: `main`
 - Repository is public.
-- The continuity file did not exist on `main when this initial record was prepared.
+- The continuity file did not exist on `main` when this initial record was prepared.
 - The current published-specimen table in `README.md` lists SPEC-001 through SPEC-004.
 
 ### Existing specimens listed in README
