@@ -33,6 +33,7 @@ jobs:
       - name: Install validation dependency
         run: pip install jsonschema
 
+      # The validator supports legacy evidence layouts without altering source artifacts.
       - name: Validate all specimens
         run: python scripts/validate_chronos.py
 
