@@ -36,6 +36,29 @@ def safe_file(spec_dir: Path, relative: str, errors: list, label: str) -> Path |
     return candidate
 
 
+def safe_evidence_file(spec_dir: Path, relative: str, errors: list, label: str) -> Path | None:
+    """Resolve evidence paths, including known legacy folder layouts.
+
+    The declared path is always attempted first. Fallbacks are limited to
+    the two historical evidence directories used by the archive.
+    """
+    resolved = safe_file(spec_dir, relative, [], label)
+    if resolved is not None:
+        return resolved
+    name = Path(relative).name
+    for legacy_dir in ("Evidence", "01_Raw_Screenshots"):
+        candidate = (spec_dir / legacy_dir / name).resolve()
+        try:
+            candidate.relative_to(spec_dir.resolve())
+        except ValueError:
+            continue
+        if candidate.is_file():
+            print(f"LEGACY PATH RESOLVED: {label}: {relative} -> {candidate.relative_to(spec_dir.resolve())}")
+            return candidate
+    errors.append(f"{label}: evidence file missing after legacy path resolution: {relative}")
+    return None
+
+
 def validate_manifest(spec_dir: Path, errors: list, strict: bool) -> None:
     manifest = spec_dir / "Evidence/integrity.sha256"
     if not manifest.is_file():
@@ -101,7 +124,7 @@ def main() -> int:
         layers = metadata.get("layers", {})
         for key in ("layer_1_evidence",):
             for relative in layers.get(key, []):
-                safe_file(spec_dir, relative, errors, label)
+                safe_evidence_file(spec_dir, relative, errors, label)
         for key in ("layer_2_facts", "layer_3_report"):
             relative = layers.get(key)
             if relative:
