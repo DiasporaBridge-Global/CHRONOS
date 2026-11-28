@@ -86,9 +86,19 @@ The repository does **not** claim regulatory certification, formal accreditation
 - [Failure Classification Taxonomy](methodology/failure-classification-taxonomy.md) — the classification structure used by the published specimens.
 - [Specimen Structure Standard](methodology/specimen-structure-standard.md) — archival reference describing the specimen documentation structure.
 
-## Archive status
+## Public GitHub specimen archive — closed at four specimens
 
-The CHRONOS specimen archive is **closed at SPEC-001 to SPEC-004**. These are the four specimens in this archive. No additional specimens are authorised or planned. This repository is presented for transparent review and independent criticism, not for new specimen submissions.
+The public GitHub specimen archive contains **exactly four published specimens: SPEC-001 through SPEC-004**. This public archive is closed to additional specimen publications. Its scope is limited to these four published cases and their authorised documentation and maintenance.
+
+## Private GitLab research specimen collection — ongoing
+
+In addition to the four specimens published here, **TamilOps maintains a growing collection of original AI interaction research specimens in a dedicated private GitLab repository**.
+
+This is an ongoing research activity. We continuously observe, document, analyse, preserve and produce additional specimens as our work progresses. The private collection contains further valuable research material that is not published in this GitHub archive.
+
+The GitLab repository is kept private to protect the originality, integrity and intellectual value of the collection. This public README describes the existence and purpose of that collection; it does not disclose private repository contents or access details.
+
+**Interested in our private research collection or potential collaboration?** AI researchers, AI professionals, developers and organisations are invited to contact TamilOps to discuss the specimens, their research potential, possible access arrangements and collaboration opportunities. Any access or engagement would be discussed and agreed separately.
 
 ## Ownership and permissions
 
