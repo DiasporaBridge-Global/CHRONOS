@@ -4,6 +4,20 @@ All notable changes to the CHRONOS Evaluation Methodology and repository structu
 
 ---
 
+## [Unreleased] — Proposed rights-policy transition
+
+### Changed
+- Added individual rights notices to SPEC-001 through SPEC-004 README, fact extraction, report, and evidence-log files.
+- Added specimen-level rights and provenance fields to all four metadata manifests and extended the metadata schema to validate them.
+- Added a contributor policy requiring documented authority and written rights arrangements before accepting external contributions.
+- Updated citation metadata to identify the original CHRONOS rights holder while retaining the repository's mixed historical rights status.
+- Proposed prospective rights-reserved treatment for new original CHRONOS-authored material.
+- Clarified that previously distributed CC BY-SA 4.0 material remains under its existing grant and that third-party evidence is excluded from blanket CHRONOS licensing.
+- Removed the single repository-wide licence declaration from citation metadata because the repository contains materials with different rights histories.
+- Corrected the original CHRONOS copyright attribution from the Lab name to the project owner, Sirajudeen Seethapathy, based on the owner's confirmation; this does not alter prior CC BY-SA 4.0 grants or third-party rights.
+
+---
+
 ## [0.2] — 2026-08-31
 
 ### Added

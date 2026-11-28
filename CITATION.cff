@@ -6,8 +6,8 @@ abstract: "Project CHRONOS is an independent research project developing a trans
 authors:
   - family-names: "Seethapathy"
     given-names: "Sirajudeen"
-    affiliation: "TamilOps"
 repository-code: "https://github.com/DiasporaBridge-Global/CHRONOS"
+notes: "Original CHRONOS-authored work: © 2026 Sirajudeen Seethapathy, subject to prior licence grants, applicable law, and third-party rights. See RIGHTS-AND-LICENSING.md for the rights and permissions policy."
 version: 0.2
 date-released: 2026-08-31
 keywords:

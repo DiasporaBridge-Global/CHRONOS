@@ -13,7 +13,8 @@
     "layers",
     "case_nature",
     "chronos_version",
-    "last_verified"
+    "last_verified",
+    "rights"
   ],
   "properties": {
     "specimen_id": {
@@ -28,11 +29,21 @@
     },
     "model": {
       "type": "object",
-      "required": ["name", "version", "provider"],
+      "required": [
+        "name",
+        "version",
+        "provider"
+      ],
       "properties": {
-        "name": { "type": "string" },
-        "version": { "type": "string" },
-        "provider": { "type": "string" }
+        "name": {
+          "type": "string"
+        },
+        "version": {
+          "type": "string"
+        },
+        "provider": {
+          "type": "string"
+        }
       }
     },
     "date_of_incident": {
@@ -47,23 +58,42 @@
     },
     "failure_classification": {
       "type": "object",
-      "required": ["category", "taxonomy_code", "severity"],
+      "required": [
+        "category",
+        "taxonomy_code",
+        "severity"
+      ],
       "properties": {
-        "category": { "type": "string" },
-        "taxonomy_code": { "type": "string" },
+        "category": {
+          "type": "string"
+        },
+        "taxonomy_code": {
+          "type": "string"
+        },
         "severity": {
           "type": "string",
-          "enum": ["T0-Internal", "T1-Public", "T2-Restricted", "T3-Critical"]
+          "enum": [
+            "T0-Internal",
+            "T1-Public",
+            "T2-Restricted",
+            "T3-Critical"
+          ]
         }
       }
     },
     "layers": {
       "type": "object",
-      "required": ["layer_1_evidence", "layer_2_facts", "layer_3_report"],
+      "required": [
+        "layer_1_evidence",
+        "layer_2_facts",
+        "layer_3_report"
+      ],
       "properties": {
         "layer_1_evidence": {
           "type": "array",
-          "items": { "type": "string" },
+          "items": {
+            "type": "string"
+          },
           "description": "Paths to evidence files"
         },
         "layer_2_facts": {
@@ -78,14 +108,23 @@
     },
     "case_nature": {
       "type": "object",
-      "required": ["recurring", "cross_model_tested"],
+      "required": [
+        "recurring",
+        "cross_model_tested"
+      ],
       "properties": {
-        "recurring": { "type": "boolean" },
+        "recurring": {
+          "type": "boolean"
+        },
         "corroborating_specimens": {
           "type": "array",
-          "items": { "type": "string" }
+          "items": {
+            "type": "string"
+          }
         },
-        "cross_model_tested": { "type": "boolean" }
+        "cross_model_tested": {
+          "type": "boolean"
+        }
       }
     },
     "chronos_version": {
@@ -97,6 +136,50 @@
       "type": "string",
       "format": "date",
       "description": "Last verification date, YYYY-MM-DD"
+    },
+    "rights": {
+      "type": "object",
+      "description": "Rights and provenance status for original CHRONOS-authored material and third-party evidence",
+      "required": [
+        "rights_holder",
+        "ownership_scope",
+        "previously_released_version_license",
+        "prior_grants",
+        "prospective_new_material",
+        "effective_trigger",
+        "third_party_material"
+      ],
+      "properties": {
+        "rights_holder": {
+          "type": "string",
+          "const": "Sirajudeen Seethapathy"
+        },
+        "ownership_scope": {
+          "type": "string",
+          "minLength": 1
+        },
+        "previously_released_version_license": {
+          "type": "string",
+          "const": "CC-BY-SA-4.0"
+        },
+        "prior_grants": {
+          "type": "string",
+          "minLength": 1
+        },
+        "prospective_new_material": {
+          "type": "string",
+          "minLength": 1
+        },
+        "effective_trigger": {
+          "type": "string",
+          "minLength": 1
+        },
+        "third_party_material": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "additionalProperties": false
     }
   }
 }

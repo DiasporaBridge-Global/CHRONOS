@@ -1,5 +1,7 @@
 # SPEC-002 — Date Cascade Failure
 
+**Rights notice:** The version of this specimen previously distributed under CC BY-SA 4.0 remains available under that licence; this notice does not revoke or narrow any prior grant. Original CHRONOS-authored additions first published after the prospective rights policy takes effect are © 2026 Sirajudeen Seethapathy. All rights reserved. Third-party evidence remains subject to its respective rights holders.
+
 **Temporal Self-Correction Sequence**
 
 Claude Sonnet 4.6 was asked whether Saturday and Sunday are non-working days in the US, as part of an unrelated recruitment conversation. In answering, it stated an incorrect current date. When challenged, its first correction was also incorrect. Only a second challenge produced a statement matching the verified calendar.
