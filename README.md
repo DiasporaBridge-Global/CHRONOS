@@ -4,12 +4,16 @@
 
 ## Current Evaluation Specimens
 
+The GitHub specimen archive is **closed and final**. It contains exactly these four specimens. No additional specimens will be accepted or added to this repository.
+
 | ID | Title | Model | Classification |
 |----|-------|-------|----------------|
 | [SPEC-001](specimens/SPEC-001/) | Tamil Siledai Reasoning Failure & Unsupported Generated Claims | Claude | Reasoning Failure |
 | [SPEC-002](specimens/SPEC-002/) | Date Cascade Failure & Temporal Self-Correction | Claude Sonnet 4.6 | Temporal Cascade Failure |
 | [SPEC-003](specimens/SPEC-003/) | Business Directory Hallucination & Self-Correction Behaviour | Gemini Pro | Hallucination |
 | [SPEC-004](specimens/SPEC-004/) | Workflow Duplication and Transition-Control Failure | Claude Sonnet 5 Thinking | Workflow Failure |
+
+Only corrections and maintenance to these four specimens, methodology, documentation, and repository infrastructure may be considered. No fifth or later specimen may be created or added.
 
 ---
 
@@ -37,7 +41,7 @@ No separate software or content licence is granted by this repository notice. Wh
 
 ## Contributing
 
-External contributions must follow [CONTRIBUTING.md](CONTRIBUTING.md), document ownership and permissions before publication, and comply with [methodology/specimen-structure-standard.md](methodology/specimen-structure-standard.md).
+The specimen archive is closed. **Contributions proposing new specimens are not accepted.** Only corrections and maintenance to SPEC-001 through SPEC-004, methodology, documentation, and repository infrastructure may be considered. See [CONTRIBUTING.md](CONTRIBUTING.md) and [methodology/specimen-structure-standard.md](methodology/specimen-structure-standard.md).
 
 ---
 
