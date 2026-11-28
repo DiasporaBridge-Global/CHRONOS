@@ -36,7 +36,7 @@ CHRONOS does not apply one blanket licence to every repository item. Material pr
 
 **Project:** CHRONOS · TamilOps
 
-**Independent AI Evaluation Researcher:** Sirajudeen Seethapathy
+**Project Owner and Original Rights Holder:** Sirajudeen Seethapathy
 ---
 
 *CHRONOS Evaluation Methodology v0.2 · TamilOps · Last updated 2026-08-31*
