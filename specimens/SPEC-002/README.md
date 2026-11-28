@@ -19,3 +19,11 @@ The model's own closing statement — *"AI cannot self-verify its own temporal e
 
 ---
 *CHRONOS Evaluation Methodology v0.1 · TamilOps · Last verified 18 July 2026*
+
+---
+
+## Ownership and permissions
+
+**Original Evidence Owner: Sirajudeen Seethapathy | Project CHRONOS — TamilOps**
+
+This specimen forms part of the closed CHRONOS archive comprising SPEC-001 to SPEC-004 only. Public visibility is for scholarly review, independent criticism and citation; it does not grant permission to reproduce, redistribute, republish, adapt or otherwise reuse original CHRONOS-authored material. Anyone seeking to use any part of this specimen must contact the owner and obtain express prior written permission, except where a valid earlier licence grant or applicable law permits the specific use. Earlier CC BY-SA 4.0 grants for previously published versions remain unaffected. Third-party materials remain subject to their respective rights. See [Rights, Ownership and Permissions](../../RIGHTS-AND-OWNERSHIP.md).
