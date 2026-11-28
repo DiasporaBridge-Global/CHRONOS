@@ -34,7 +34,7 @@ See [LICENSE](LICENSE) and [RIGHTS-AND-LICENSING.md](RIGHTS-AND-LICENSING.md) fo
 
 ## Contributing
 
-External contributions require documented ownership and written permission arrangements before publication. All new specimens must comply with [methodology/specimen-structure-standard.md](methodology/specimen-structure-standard.md).
+External contributions must follow [CONTRIBUTING.md](CONTRIBUTING.md), document ownership and permissions before publication, and comply with [methodology/specimen-structure-standard.md](methodology/specimen-structure-standard.md).
 
 ---
 
