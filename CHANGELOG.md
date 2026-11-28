@@ -1,13 +1,15 @@
 # CHRONOS Changelog
 
+All notable changes to the CHRONOS Evaluation Methodology and repository structure.
+
+---
+
 ## [Unreleased] — Proposed rights-policy transition
 
 ### Changed
 - Proposed prospective rights-reserved treatment for new original CHRONOS-authored material.
 - Clarified that previously distributed CC BY-SA 4.0 material remains under its existing grant and that third-party evidence is excluded from blanket CHRONOS licensing.
 - Removed the single repository-wide licence declaration from citation metadata because the repository contains materials with different rights histories.
-
-All notable changes to the CHRONOS Evaluation Methodology and repository structure.
 
 ---
 
