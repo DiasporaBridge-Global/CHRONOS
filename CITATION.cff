@@ -6,7 +6,6 @@ abstract: "Project CHRONOS is an independent research project developing a trans
 authors:
   - family-names: "Seethapathy"
     given-names: "Sirajudeen"
-    affiliation: "TamilOps Frontier AI Evaluation Lab"
 repository-code: "https://github.com/DiasporaBridge-Global/CHRONOS"
 version: 0.2
 date-released: 2026-08-31
