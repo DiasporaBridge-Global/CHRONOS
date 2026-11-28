@@ -1,52 +1,51 @@
 # CHRONOS Rights and Licensing Policy
 
+**Owner:** Sirajudeen Seethapathy  
 **Status:** Proposed  
-**Effective date:** 2026-11-28, only if this proposal is approved and merged.
+**Effective date:** Upon approval and merge of this proposal.
 
-## Why this policy exists
+## Ownership
 
-CHRONOS must remain inspectable and evidence-led without automatically granting unrestricted reuse of every original specimen, analysis, methodology document, or research output. The repository contains original CHRONOS work alongside third-party evidence, so a single blanket licence is not an accurate description of every item.
+Sirajudeen Seethapathy confirms that he is the sole owner of Project CHRONOS and the original CHRONOS work. The earlier repository copyright attribution to “TamilOps Frontier AI Evaluation Lab” was incorrect and is corrected prospectively in this proposal. This ownership statement does not extend to third-party material included in the archive.
 
 ## 1. Previously released material
 
-Material already distributed under CC BY-SA 4.0 before this policy takes effect remains available under that licence for the version previously released. Existing recipients retain the permissions granted to them. This policy does not revoke or retrospectively narrow those permissions.
+Material previously distributed under CC BY-SA 4.0 remains available under that licence for the versions already released. Existing recipients retain the permissions granted to them. This policy does not revoke or retrospectively narrow those permissions.
 
 Official licence: https://creativecommons.org/licenses/by-sa/4.0/legalcode
 
-If a later work adapts previously licensed CC BY-SA material, the original licence continues to govern that adapted material to the extent required by its terms. New, separable original contributions may have their own rights status, which must be clearly identified.
+If a later work adapts previously licensed CC BY-SA material, the original licence continues to govern that adapted material to the extent required by its terms.
 
 ## 2. New original CHRONOS material
 
-Unless a separate written licence says otherwise, original CHRONOS-authored material first published after the effective date is **All Rights Reserved** by its applicable copyright holder.
+Unless a separate written licence says otherwise, original CHRONOS-authored material first published after this policy takes effect is © 2026 Sirajudeen Seethapathy. All Rights Reserved.
 
 This includes new specimen reports, original fact-extraction and analysis text, original methodology, taxonomies, diagrams, and other original research documentation. No general permission is granted to reproduce, redistribute, adapt, republish, commercially exploit, or create derivative works. Applicable statutory exceptions and limitations remain unaffected.
 
 ## 3. Third-party evidence
 
-CHRONOS does not claim ownership of screenshots, source conversations, documents, quotations, datasets, software, logos, or other third-party material merely because they are included in or discussed by a specimen. Each item remains subject to its actual rights holder's terms and applicable law. The repository must identify third-party material where reasonably possible and must not imply that the CHRONOS rights notice licenses it.
+Screenshots, source conversations, documents, quotations, datasets, software, logos, and other third-party material remain subject to their actual rights holders' terms and applicable law. Their inclusion in CHRONOS does not transfer ownership to the project owner or license them for reuse.
 
 ## 4. Contributors
 
-No contributor's copyright is transferred merely by submitting material. Before accepting external contributions for publication under this model, CHRONOS must document the contributor's authority, ownership, and written permission or other agreed rights arrangement. A contribution must not be published on an assumption that the project owns it.
+External contributors retain their own rights unless a valid written agreement provides otherwise. Before accepting external contributions, CHRONOS must document the contributor's authority, ownership, and written permission or agreed rights arrangement.
 
 ## 5. Attribution and provenance
 
-Preserve original evidence, authorship statements, source attribution, timestamps, and provenance records. Do not alter or remove original ownership notices. The rights status of an item must be based on its actual provenance and agreements, not inferred from its folder location.
+Preserve original evidence, authorship records, source attribution, timestamps, and provenance. The correction of the earlier Lab attribution applies to original CHRONOS work owned by Sirajudeen Seethapathy; it does not alter third-party rights or erase historical records.
 
 ## 6. Specimen-level rights labels
 
-Each newly published specimen should identify, separately:
-- CHRONOS-authored original text and analysis;
-- raw evidence and other third-party material;
-- contributor-created material, if any;
-- the applicable rights status and any specific permission.
-
-Do not apply a blanket CHRONOS licence to third-party evidence.
+Each newly published specimen should identify separately:
+- CHRONOS-authored original text and analysis — © Sirajudeen Seethapathy, All Rights Reserved;
+- raw evidence and other third-party material — rights remain with their respective owners;
+- contributor-created material, if any — governed by the documented contributor agreement;
+- any specific licence or permission granted.
 
 ## 7. No retroactive effect
 
-This policy applies prospectively. It does not withdraw, rewrite, or invalidate a licence or permission granted before its effective date.
+This policy applies prospectively upon approval and merge. It does not withdraw, rewrite, or invalidate a licence or permission granted before that date.
 
 ## 8. Legal status
 
-This is a repository policy statement, not a legal opinion, copyright assignment, or substitute for a signed contributor agreement. Where ownership or reuse rights are uncertain, do not claim ownership or grant permissions until the records have been checked.
+This is a repository rights statement, not a legal opinion or substitute for a signed agreement. It records the project owner's ownership declaration. Legal review is advisable before relying on it in a dispute or commercial transaction.
