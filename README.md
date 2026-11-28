@@ -1,47 +1,49 @@
+# CHRONOS
 
+**An evidence-led archive of documented AI evaluation cases**
 
----
+**Original Evidence Owner: Sirajudeen Seethapathy | Project CHRONOS — TamilOps**
 
-## Current Evaluation Specimens
+CHRONOS documents observed AI-system behaviour through preserved interaction evidence, structured fact extraction, analysis and specimen reports. The repository presents four completed specimens for research review and independent criticism.
 
-| ID | Title | Model | Classification |
-|----|-------|-------|----------------|
-| [SPEC-001](specimens/SPEC-001/) | Tamil Siledai Reasoning Failure & Unsupported Generated Claims | Claude | Reasoning Failure |
-| [SPEC-002](specimens/SPEC-002/) | Date Cascade Failure & Temporal Self-Correction | Claude Sonnet 4.6 | Temporal Cascade Failure |
-| [SPEC-003](specimens/SPEC-003/) | Business Directory Hallucination & Self-Correction Behaviour | Gemini Pro | Hallucination |
-| [SPEC-004](specimens/SPEC-004/) | Workflow Duplication and Transition-Control Failure | Claude Sonnet 5 Thinking| Workflow Failure |
+## The four published specimens
 
----
+| ID | Subject | System evaluated | Classification |
+|---|---|---|---|
+| [SPEC-001](specimens/SPEC-001/) | Tamil Siledai reasoning failure and unsupported generated claims | Claude | Reasoning failure |
+| [SPEC-002](specimens/SPEC-002/) | Date cascade failure and delayed temporal correction | Claude Sonnet 4.6 | Temporal cascade failure |
+| [SPEC-003](specimens/SPEC-003/) | Business-directory hallucination and source-data contamination | Gemini Pro | Hallucination |
+| [SPEC-004](specimens/SPEC-004/) | Workflow duplication and transition-control failure | Claude Sonnet 5 Thinking | Workflow failure |
+
+## How to read the research
+
+Each specimen contains its own case description, preserved evidence and supporting analysis. The repository's methodology documents define the specimen structure, evidence-handling expectations and failure-classification taxonomy. Interpret findings within the evidence and conditions documented in the relevant specimen; an individual observation should not be treated as a population-wide failure rate.
+
+## Archive status
+
+The CHRONOS specimen archive is **closed at SPEC-001 to SPEC-004**. These are the four specimens in this archive. No additional specimens are authorised or planned. This repository is presented for transparent review and independent criticism, not for new specimen submissions.
+
+## Ownership and permissions
+
+**Original Evidence Owner: Sirajudeen Seethapathy | Project CHRONOS — TamilOps**
+
+Public access is provided for reading, scholarly review, independent criticism and citation. It does not grant permission to reproduce, redistribute, republish, adapt, or otherwise reuse original CHRONOS-authored material. Anyone wishing to use any part of SPEC-001 to SPEC-004 must contact the owner and obtain express prior written permission, except where a valid earlier licence grant or applicable law permits the specific use.
+
+Some earlier published versions of CHRONOS material were distributed under CC BY-SA 4.0. Permissions already granted for those versions remain in force under that licence. Third-party materials remain subject to their respective rights.
+
+Read the full [Rights, Ownership and Permissions notice](RIGHTS-AND-OWNERSHIP.md) before reuse.
 
 ## Citation
 
-If you use this repository in your research, please cite it using the metadata in [CITATION.cff](CITATION.cff). GitHub's "Cite this repository" button generates BibTeX and APA format automatically.
+If you refer to this repository in research, use the metadata in [CITATION.cff](CITATION.cff). Citation and attribution do not, by themselves, constitute permission for uses that otherwise require permission.
+
+## Methodology documents
+
+- [Specimen Structure Standard](methodology/specimen-structure-standard.md)
+- [Evidence Handling Protocol](methodology/evidence-handling-protocol.md)
+- [Failure Classification Taxonomy](methodology/failure-classification-taxonomy.md)
 
 ---
 
-## Contributing
-
-We welcome contributions that expand the evidence archive or improve the methodology. See [CONTRIBUTING.md](CONTRIBUTING.md) for submission standards and the specimen structure requirements.
-
-All new specimens must comply with [methodology/specimen-structure-standard.md](methodology/specimen-structure-standard.md).
-
----
-
-## Rights and Permissions
-
-**Original Evidence Owner:** Sirajudeen Seethapathy | Project CHRONOS — TamilOps.
-
-Prior written permission from the owner is required for reproduction, redistribution, adaptation, republication, or other reuse of original CHRONOS-authored material, except where permission has already been granted under an earlier licence or where applicable law permits otherwise.
-
-Some previously published versions of CHRONOS material were distributed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0). Removing the repository licence file does not revoke permissions already granted for those versions. Third-party materials remain subject to their respective rights.
-
----
-
-## Provenance
-
-**Project:** CHRONOS · TamilOps
-
-**Independent AI Evaluation Researcher:** Sirajudeen Seethapathy
----
-
-*CHRONOS Evaluation Methodology v0.2 · TamilOps · Last updated 2026-11-28*
+**Project:** CHRONOS — TamilOps  
+**Original Evidence Owner:** Sirajudeen Seethapathy
