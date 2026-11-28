@@ -1,3 +1,4 @@
+# Project CHRONOS — TamilOps
 
 ---
 
@@ -20,15 +21,17 @@ If you use this repository in your research, please cite it using [CITATION.cff]
 
 ## Rights, Ownership and Permission
 
-**Original CHRONOS-authored work is owned by Sirajudeen Seethapathy**, subject to applicable law, prior licence grants, and third-party or contributor rights. This statement does not claim ownership of third-party material.
+**Original Evidence Owner:** Sirajudeen Seethapathy | Project CHRONOS — TamilOps.
 
-Material previously released under CC BY-SA 4.0 remains subject to that licence for the versions already released. That earlier licence cannot be retrospectively revoked.
+Sirajudeen Seethapathy is the sole owner of Project CHRONOS and its original CHRONOS-authored work, subject to applicable law and valid third-party or contributor rights. This ownership claim does not extend to third-party material, AI-provider material, or content whose rights belong to others.
 
-New original CHRONOS material published after the proposed rights policy takes effect will be **All Rights Reserved**, unless a separate written licence states otherwise. Viewing that material does not grant permission to reuse it.
+The four listed specimens remain publicly viewable in this repository. Public viewing and non-commercial research/reference do not by themselves grant permission to reproduce, redistribute, adapt, republish, commercially exploit, or otherwise reuse original CHRONOS-authored material.
 
-Anyone wishing to reproduce, adapt, redistribute, republish, or obtain licensed access to new original CHRONOS material must contact the Project Owner and obtain prior written permission. Third-party evidence remains the property of its respective rights holders.
+Anyone wishing to obtain permission to use any one or all of SPEC-001, SPEC-002, SPEC-003, or SPEC-004 must contact the Project Owner and obtain prior written permission. A request alone does not grant permission.
 
-See [LICENSE](LICENSE) and [RIGHTS-AND-LICENSING.md](RIGHTS-AND-LICENSING.md) for the full terms.
+Any version of CHRONOS material previously distributed under CC BY-SA 4.0 remains subject to that licence for that previously released version. This notice does not retrospectively revoke or narrow permissions already granted. Third-party material remains subject to its respective rights holders.
+
+No separate software or content licence is granted by this repository notice. Where no prior licence applies, all rights in original CHRONOS-authored material are reserved except for uses permitted by applicable law.
 
 ---
 
@@ -42,7 +45,7 @@ External contributions must follow [CONTRIBUTING.md](CONTRIBUTING.md), document 
 
 **Project:** CHRONOS · TamilOps
 
-**Project Owner and Original Rights Holder:** Sirajudeen Seethapathy
+**Project Owner and Original Evidence Owner:** Sirajudeen Seethapathy
 
 ---
 
