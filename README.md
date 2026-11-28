@@ -26,7 +26,7 @@ The four archived specimens demonstrate four distinct evaluation areas:
 | [SPEC-003](specimens/SPEC-003/) | Source reliability and factual verification | Does the system independently verify directory-sourced business claims before presenting them as fact? |
 | [SPEC-004](specimens/SPEC-004/) | Workflow state and platform transitions | Does the system recognise a workflow transition and avoid unnecessary duplication? |
 
-These cases illustrate the current archive's scope. They are not an exhaustive taxonomy of AI failures and do not establish that every model or deployment exhibits the same behaviour.
+These cases illustrate the current public archive's scope. They are not an exhaustive taxonomy of AI failures and do not establish that every model or deployment exhibits the same behaviour.
 
 ## How a CHRONOS evaluation works
 
@@ -83,11 +83,19 @@ Depending on the agreed scope and available access, an evaluation may produce:
 
 The exact deliverables must be agreed for each engagement. This repository does not claim certification, regulatory approval, or a universally validated benchmark score.
 
-## Current specimen archive — closed and final
+## Public GitHub specimen archive — closed at four specimens
 
-The GitHub specimen archive contains **exactly four specimens: SPEC-001 through SPEC-004**. No additional specimens will be accepted, created, or added to this repository.
+The public GitHub specimen archive contains **exactly four published specimens: SPEC-001 through SPEC-004**. No additional specimens will be added to this public archive. Its scope is limited to these four published cases and their authorised documentation and maintenance.
 
-Only corrections and maintenance to these four specimens, methodology, documentation, and repository infrastructure may be considered. No fifth or later specimen may be created or added.
+## Private GitLab research specimen collection — ongoing
+
+In addition to the four specimens published here, **TamilOps maintains a growing collection of original AI interaction research specimens in a dedicated private GitLab repository**.
+
+This is an ongoing research activity. We continuously observe, document, analyse, preserve and produce additional specimens as our work progresses. The private collection contains further valuable research material that is not published in this GitHub archive.
+
+The GitLab repository is kept private to protect the originality, integrity and intellectual value of the collection. This public README describes the existence and purpose of that collection; it does not disclose private repository contents or access details.
+
+**Interested in our private research collection or potential collaboration?** AI researchers, AI professionals, developers and organisations are invited to contact TamilOps to discuss the specimens, their research potential, possible access arrangements and collaboration opportunities. Any access or engagement would be discussed and agreed separately.
 
 ## Limitations and interpretation
 
@@ -120,7 +128,7 @@ Any version of CHRONOS material previously distributed under CC BY-SA 4.0 remain
 
 ## Contributing and maintenance
 
-The specimen archive is closed. **Contributions proposing new specimens are not accepted.** Only corrections and maintenance to SPEC-001 through SPEC-004, methodology, documentation, and repository infrastructure may be considered. See [CONTRIBUTING.md](CONTRIBUTING.md).
+The public GitHub specimen archive is closed. **Contributions proposing new specimens to this public repository are not accepted.** Only corrections and maintenance to SPEC-001 through SPEC-004, methodology, documentation, and repository infrastructure may be considered. See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Provenance
 
