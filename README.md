@@ -20,7 +20,7 @@ If you use this repository in your research, please cite it using [CITATION.cff]
 
 ## Rights, Ownership and Permission
 
-**Project CHRONOS is solely owned by Sirajudeen Seethapathy.**
+**Original CHRONOS-authored work is owned by Sirajudeen Seethapathy**, subject to applicable law, prior licence grants, and third-party or contributor rights. This statement does not claim ownership of third-party material.
 
 Material previously released under CC BY-SA 4.0 remains subject to that licence for the versions already released. That earlier licence cannot be retrospectively revoked.
 

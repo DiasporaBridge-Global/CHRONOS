@@ -1,5 +1,7 @@
 # SPEC-001 — Evidence Log
 
+**Rights notice:** The version of this specimen previously distributed under CC BY-SA 4.0 remains available under that licence; this notice does not revoke or narrow any prior grant. Original CHRONOS-authored additions first published after the prospective rights policy takes effect are © 2026 Sirajudeen Seethapathy. All rights reserved. Third-party evidence remains subject to its respective rights holders.
+
 **Status:** Immutable — no interpretation, no conclusions. This log records only what is directly observable in the 7 preserved screenshots.
 
 **Source:** Claude mobile application (`com.anthropic.claude`), confirmed via on-screen UI ("3 Artifacts" tab, system disclaimer footer: *"Claude is AI and can make mistakes. Please double-check responses."*)
