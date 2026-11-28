@@ -1,5 +1,7 @@
 # SPEC-003 — Business Directory Hallucination
 
+**Rights notice:** The version of this specimen previously distributed under CC BY-SA 4.0 remains available under that licence; this notice does not revoke or narrow any prior grant. Original CHRONOS-authored additions first published after the prospective rights policy takes effect are © 2026 Sirajudeen Seethapathy. All rights reserved. Third-party evidence remains subject to its respective rights holders.
+
 Justdial Self-Tagging Verification Failure
 
 Gemini Pro was asked to find second-hand laptop dealers in Karaikudi, Tamil Nadu. It sourced its answer from the Justdial business directory and presented three shops as verified second-hand laptop dealers, without checking whether the directory category matched the shop's actual inventory.

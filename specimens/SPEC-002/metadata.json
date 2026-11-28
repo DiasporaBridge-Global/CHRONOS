@@ -26,9 +26,20 @@
   },
   "case_nature": {
     "recurring": true,
-    "corroborating_specimens": ["SPEC-002-addendum-2026-07-18"],
+    "corroborating_specimens": [
+      "SPEC-002-addendum-2026-07-18"
+    ],
     "cross_model_tested": false
   },
   "chronos_version": "0.2",
-  "last_verified": "2026-09-02"
+  "last_verified": "2026-09-02",
+  "rights": {
+    "rights_holder": "Sirajudeen Seethapathy",
+    "ownership_scope": "Original CHRONOS-authored expression and original selection or arrangement, subject to applicable law, prior licence grants, and third-party rights",
+    "previously_released_version_license": "CC-BY-SA-4.0",
+    "prior_grants": "Remain in force for versions previously distributed under that licence; not revoked or narrowed by this notice",
+    "prospective_new_material": "© 2026 Sirajudeen Seethapathy. All rights reserved, for original CHRONOS-authored material first published after the rights policy takes effect",
+    "effective_trigger": "Upon approval and merge of the rights policy",
+    "third_party_material": "Excluded from CHRONOS ownership claims; governed by respective rights holders and applicable law"
+  }
 }
