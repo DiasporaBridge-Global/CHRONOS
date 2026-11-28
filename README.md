@@ -26,9 +26,9 @@ All new specimens must comply with [methodology/specimen-structure-standard.md](
 
 ---
 
-## License
+## Rights and Licensing
 
-This work is licensed under the [Creative Commons Attribution-ShareAlike 4.0 International License](LICENSE).
+CHRONOS does not apply one blanket licence to every repository item. Material previously released under CC BY-SA 4.0 remains under that licence for the version previously released. New original CHRONOS-authored material published after the rights policy takes effect is rights-reserved unless a separate written licence says otherwise. Third-party evidence remains subject to its respective rights holders. See [LICENSE](LICENSE) and [RIGHTS-AND-LICENSING.md](RIGHTS-AND-LICENSING.md).
 
 ---
 
