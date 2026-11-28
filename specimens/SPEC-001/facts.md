@@ -1,5 +1,7 @@
 # SPEC-001 — Fact Extraction (Layer 2)
 
+**Rights notice:** The version of this specimen previously distributed under CC BY-SA 4.0 remains available under that licence; this notice does not revoke or narrow any prior grant. Original CHRONOS-authored additions first published after the prospective rights policy takes effect are © 2026 Sirajudeen Seethapathy. All rights reserved. Third-party evidence remains subject to its respective rights holders.
+
 **Extracted by:** Gemini Pro, Stage A Fact Extraction
 **Source:** Layer 1 Evidence Record (7 timestamped screenshots, see `Evidence/evidence-log.md`)
 **Status:** Corrected — one round of revision applied (see note at end)
