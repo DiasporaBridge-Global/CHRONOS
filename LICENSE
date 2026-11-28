@@ -1,16 +1,40 @@
-CHRONOS Evaluation Repository — License
+CHRONOS — RIGHTS AND LICENSING NOTICE
+Effective date: 2026-11-28 (subject to approval and merge of this change)
 
-This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License.
+This repository contains materials with different rights histories. It is not covered by one blanket open licence.
 
-You are free to:
-- Share — copy and redistribute the material in any medium or format
-- Adapt — remix, transform, and build upon the material for any purpose, even commercially
+1. MATERIAL ALREADY RELEASED UNDER CC BY-SA 4.0
 
-Under the following terms:
-- Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made.
-- ShareAlike — If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.
+Any CHRONOS material that was already distributed under the Creative Commons Attribution-ShareAlike 4.0 International licence before this notice takes effect remains available under that licence for the version previously released. This notice does not revoke, narrow, or retrospectively alter permissions already granted. The CC BY-SA 4.0 licence is irrevocable for compliant recipients.
 
-Full legal text: https://creativecommons.org/licenses/by-sa/4.0/legalcode
+Licence text: https://creativecommons.org/licenses/by-sa/4.0/legalcode
 
+Where a later work adapts material previously released under CC BY-SA 4.0, the licence conditions continue to apply to that adapted material to the extent required by the original licence. This notice does not remove those rights.
+
+2. NEW CHRONOS-AUTHORED MATERIAL
+
+For original CHRONOS-authored material first published after this notice takes effect, all rights are reserved by the applicable copyright holder unless a separate written licence or permission expressly states otherwise.
+
+No general permission is granted to reproduce, redistribute, adapt, republish, commercially exploit, or create derivative works from such new material. Public access to a repository page is not, by itself, a general copyright licence. Uses permitted by applicable law remain unaffected.
+
+3. THIRD-PARTY MATERIAL AND RAW EVIDENCE
+
+Screenshots, documents, quotations, datasets, software, logos, and other third-party material remain subject to the rights of their respective owners. CHRONOS does not claim ownership of third-party material merely because it is preserved, cited, or analysed in a specimen. Any permission to reuse such material must come from its actual rights holder or an applicable legal exception.
+
+4. CONTRIBUTIONS
+
+A contribution does not automatically transfer copyright to CHRONOS, TamilOps, or the project director. Before accepting and publishing externally contributed material under this rights-reserved model, the project must document the contributor's authority, ownership, and written permission or other agreed rights arrangement.
+
+5. OWNERSHIP AND ATTRIBUTION
+
+Existing authorship, provenance, and copyright notices must be preserved. This notice does not determine or transfer ownership where the underlying records do not establish it. Rights in each item remain subject to its actual authorship, provenance, agreements, and applicable law.
+
+6. NO RETROACTIVE EFFECT
+
+This notice applies prospectively from its effective date. It does not withdraw, rewrite, or invalidate any licence or permission granted before that date.
+
+Copyright attribution previously published by CHRONOS:
 Copyright (c) 2026 TamilOps Frontier AI Evaluation Lab
 Lead Architect: Sirajudeen Seethapathy
+
+This notice is a repository rights statement, not a substitute for legal advice or a signed rights agreement.
