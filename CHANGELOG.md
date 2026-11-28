@@ -10,6 +10,7 @@ All notable changes to the CHRONOS Evaluation Methodology and repository structu
 - Proposed prospective rights-reserved treatment for new original CHRONOS-authored material.
 - Clarified that previously distributed CC BY-SA 4.0 material remains under its existing grant and that third-party evidence is excluded from blanket CHRONOS licensing.
 - Removed the single repository-wide licence declaration from citation metadata because the repository contains materials with different rights histories.
+- Corrected the original CHRONOS copyright attribution from the Lab name to the project owner, Sirajudeen Seethapathy, based on the owner's confirmation; this does not alter prior CC BY-SA 4.0 grants or third-party rights.
 
 ---
 
