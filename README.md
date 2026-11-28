@@ -16,6 +16,34 @@ Its central control is a **Three-Layer Evidence Model**:
 
 This separation makes it easier for another reviewer to distinguish the original observation, the factual record and the evaluator's interpretation.
 
+## Three-Layer Evidence Model — visual overview
+
+```mermaid
+flowchart TD
+    A["🔍 Observed AI Interaction"] --> B
+
+    B["Layer 1<br/>Preserved Evidence"]
+    B --> C
+
+    C["Layer 2<br/>Fact Extraction"]
+    C --> D
+
+    D["Layer 3<br/>Analysis & Report"]
+
+    B -.- B1["Immutable records<br/>SHA-256 integrity hashes<br/>Screenshots • Logs • Traces"]
+    C -.- C1["Observable facts only<br/>No interpretation added<br/>Every fact linked to evidence"]
+    D -.- D1["Traceable conclusions<br/>Failure classification<br/>Limitations clearly stated"]
+
+    style A fill:#1e1e2f,stroke:#7c3aed,stroke-width:2px,color:#ffffff
+    style B fill:#0f172a,stroke:#38bdf8,stroke-width:2px,color:#e0f2fe
+    style C fill:#052e16,stroke:#4ade80,stroke-width:2px,color:#dcfce7
+    style D fill:#431407,stroke:#fb923c,stroke-width:2px,color:#ffedd5
+
+    style B1 fill:#1e293b,stroke:#334155,color:#94a3b8
+    style C1 fill:#1e293b,stroke:#334155,color:#94a3b8
+    style D1 fill:#1e293b,stroke:#334155,color:#94a3b8
+```
+
 ## How a CHRONOS case moves through the method
 
 `Observed interaction → Evidence capture and preservation → Evidence log and integrity check → Structured fact extraction → Analysis and failure classification → Evidence-linked report and limitations`
