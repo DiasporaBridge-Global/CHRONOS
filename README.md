@@ -1,4 +1,5 @@
 
+
 ---
 
 ## Current Evaluation Specimens
@@ -26,9 +27,13 @@ All new specimens must comply with [methodology/specimen-structure-standard.md](
 
 ---
 
-## License
+## Rights and Permissions
 
-This work is licensed under the [Creative Commons Attribution-ShareAlike 4.0 International License](LICENSE).
+**Original Evidence Owner:** Sirajudeen Seethapathy | Project CHRONOS — TamilOps.
+
+Prior written permission from the owner is required for reproduction, redistribution, adaptation, republication, or other reuse of original CHRONOS-authored material, except where permission has already been granted under an earlier licence or where applicable law permits otherwise.
+
+Some previously published versions of CHRONOS material were distributed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0). Removing the repository licence file does not revoke permissions already granted for those versions. Third-party materials remain subject to their respective rights.
 
 ---
 
@@ -39,4 +44,4 @@ This work is licensed under the [Creative Commons Attribution-ShareAlike 4.0 Int
 **Independent AI Evaluation Researcher:** Sirajudeen Seethapathy
 ---
 
-*CHRONOS Evaluation Methodology v0.2 · TamilOps · Last updated 2026-08-31*
+*CHRONOS Evaluation Methodology v0.2 · TamilOps · Last updated 2026-11-28*
